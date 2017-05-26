@@ -62,4 +62,4 @@ Contact:
 
 ## License
 
-OLSDynamicDynamicHeader is under the MIT license. See the LICENSE file for more info!
+OLSDynamicHeaderViewController is under the MIT license. See the LICENSE file for more info!
