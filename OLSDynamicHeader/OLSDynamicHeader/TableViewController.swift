@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  OLSDynamicHeaderPOC
+//  TableViewController.swift
+//  OLSDynamicHeader
 //
 //  Created by Omar Hagopian on 5/24/17.
 //  Copyright © 2017 OrangeLoops. All rights reserved.
@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: OLSDynamicHeaderTableViewController {
+class TableViewController: OLSDynamicHeaderTableViewController {
 
+    private let cellIdenetifier = "defaultCellIdentifier"
     private var elements = [String]()
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -23,9 +24,8 @@ class ViewController: OLSDynamicHeaderTableViewController {
 
         super.viewDidLoad()
 
-        tableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: "Cell")
+        tableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: cellIdenetifier)
     }
-
 
     override func headerViewInstance() -> OLSDynamicHeaderView {
         let view = SampleHeaderView.viewInstance()
@@ -37,7 +37,7 @@ class ViewController: OLSDynamicHeaderTableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdenetifier)
         cell?.textLabel?.text = elements[indexPath.row]
         cell?.accessoryType = .disclosureIndicator
         return cell!;

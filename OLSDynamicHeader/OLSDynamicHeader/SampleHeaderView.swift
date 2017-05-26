@@ -1,6 +1,6 @@
 //
 //  SampleHeaderView.swift
-//  OLSDynamicHeaderPOC
+//  OLSDynamicHeader
 //
 //  Created by Omar Hagopian on 9/7/16.
 //  Copyright © 2017 OrangeLoops. All rights reserved.
