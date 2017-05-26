@@ -1,4 +1,4 @@
-# OLSDynamicDynamicHeader for iOS (v1.0)
+# OLSDynamicHeaderViewController for iOS (v1.0)
 
 This is an easy to integrate component that allows a UIScrollView or any of their widely used subclasses (such as UITableView and UICollectionView) to have a header view that can be animated along with scrolling.
 
