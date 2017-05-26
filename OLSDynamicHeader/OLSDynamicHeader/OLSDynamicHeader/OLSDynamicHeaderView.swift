@@ -8,13 +8,15 @@
 
 import UIKit
 
+// This is more of a helper classs to guide the implementation
+// of a header
 protocol OLSDynamicHeaderViewProtocol {
     static func viewInstance() -> Self
 
     func maxHeight() -> CGFloat
     func minHeight() -> CGFloat
-    func resizeWithProgress(_ progress: CGFloat) //0..1: 0 min height reached, 1 max height reached
-    func overflowWithPoints(_ points: CGFloat) // 0..N 0 max size and N the amount of points
+    func resize(withProgress progress: CGFloat) //0..1: 0 min height reached, 1 max height reached
+    func overflow(withPoints points: CGFloat) // 0..N 0 max size and N the amount of points
 }
 
 class OLSDynamicHeaderView: UIView, OLSDynamicHeaderViewProtocol {
@@ -31,11 +33,11 @@ class OLSDynamicHeaderView: UIView, OLSDynamicHeaderViewProtocol {
         fatalError("Must be implemented on subclasses")
     }
 
-    func resizeWithProgress(_ progress: CGFloat) {
+    func resize(withProgress progress: CGFloat) {
         /* Default Implementation */
     }
 
-    func overflowWithPoints(_ points: CGFloat) {
+    func overflow(withPoints points: CGFloat) {
         /* Default Implementation */
     }
 }

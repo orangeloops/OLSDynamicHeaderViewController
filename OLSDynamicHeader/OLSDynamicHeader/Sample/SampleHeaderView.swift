@@ -59,7 +59,7 @@ class SampleHeaderView: OLSDynamicHeaderView {
         return MIN_HEIGHT
     }
 
-    override func resizeWithProgress(_ progress: CGFloat) {
+    override func resize(withProgress progress: CGFloat) {
         //Some boring math =S
         let minHeight = self.minHeight()
         let maxHeight = self.maxHeight()
@@ -78,7 +78,7 @@ class SampleHeaderView: OLSDynamicHeaderView {
         backgroundImageView.alpha = progressValue(MIN_BACKGROUND_ALPHA, MAX_BACKGROUND_ALPHA, progress: progress)
     }
 
-    override func overflowWithPoints(_ points: CGFloat) {
+    override func overflow(withPoints points: CGFloat) {
         //Reset everything
         bottomSpacingLayoutConstraint.constant = MAX_BOTTOM_SPACING - points
         labelSpacingLayoutConstraint.constant = MAX_TEXT_SPACING

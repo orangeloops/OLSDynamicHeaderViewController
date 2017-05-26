@@ -10,6 +10,7 @@ import UIKit
 
 class OLSDynamicHeaderTableViewController: OLSDynamicHeaderViewController, UITableViewDelegate, UITableViewDataSource {
 
+    // This helps for scenarios when the header needs to have user interaction
     class OLSDynamicHeaderTableView: UITableView {
 
         override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {

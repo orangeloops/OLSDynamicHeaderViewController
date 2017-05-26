@@ -10,6 +10,7 @@ import UIKit
 
 class OLSDynamicHeaderCollectionViewController: OLSDynamicHeaderViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
+    // This helps for scenarios when the header needs to have user interaction
     class OLSDynamicHeaderCollectionView: UICollectionView {
 
         override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {

@@ -12,7 +12,7 @@
         <!--Table View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="TableViewController" customModule="OLSDynamicHeader" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TableViewController" id="BYZ-38-t0r" customClass="TableViewController" customModule="OLSDynamicHeader" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -30,7 +30,7 @@
         <!--Collection View Controller-->
         <scene sceneID="dP8-21-YVz">
             <objects>
-                <viewController id="9bM-nE-frw" customClass="CollectionViewController" customModule="OLSDynamicHeader" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CollectionViewController" id="9bM-nE-frw" customClass="CollectionViewController" customModule="OLSDynamicHeader" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6P2-yZ-Vyv"/>
                         <viewControllerLayoutGuide type="bottom" id="rcJ-Zj-LtY"/>

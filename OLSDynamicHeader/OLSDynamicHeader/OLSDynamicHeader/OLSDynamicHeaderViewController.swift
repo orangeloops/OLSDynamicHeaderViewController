@@ -52,7 +52,7 @@ class OLSDynamicHeaderViewController: UIViewController, UIScrollViewDelegate, OL
 
         guard offset <= 0 else {
             backgroundViewTopLayoutConstraint.constant = headerView.minHeight()
-            headerView.resizeWithProgress(0)
+            headerView.resize(withProgress: 0)
             return
         }
 
@@ -67,14 +67,14 @@ class OLSDynamicHeaderViewController: UIViewController, UIScrollViewDelegate, OL
             let progress = scrollProgress/totalDistance
 
             let fixedProgress = progress < 0 ? 0 : min(progress, 1)
-            headerView.resizeWithProgress(fixedProgress)
+            headerView.resize(withProgress: fixedProgress)
 
             backgroundConstant = headerMin + scrollProgress
 
 
         } else {
             let offset = scrollProgress - totalDistance
-            headerView.overflowWithPoints(offset)
+            headerView.overflow(withPoints: offset)
 
             backgroundConstant = headerMax + offset
         }
