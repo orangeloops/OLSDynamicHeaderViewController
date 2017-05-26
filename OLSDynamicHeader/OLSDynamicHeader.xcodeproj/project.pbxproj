@@ -56,12 +56,12 @@
 		0EBC38941ED8BE3900FCBE58 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				0EBC389A1ED8BE3900FCBE58 /* TableViewController.swift */,
 				0EBC38951ED8BE3900FCBE58 /* CollectionViewCell.swift */,
 				0EBC38961ED8BE3900FCBE58 /* CollectionViewCell.xib */,
 				0EBC38971ED8BE3900FCBE58 /* CollectionViewController.swift */,
 				0EBC38981ED8BE3900FCBE58 /* SampleHeaderView.swift */,
 				0EBC38991ED8BE3900FCBE58 /* SampleHeaderView.xib */,
-				0EBC389A1ED8BE3900FCBE58 /* TableViewController.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
