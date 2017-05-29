@@ -39,8 +39,6 @@ class MyViewController: OLSDynamicHeaderTableViewController {
 ```swift
 class MyDynamicHeader: OLSDynamicHeaderView {
 
-    class func viewInstance() -> Self { ... }
-
     func maxHeight() -> CGFloat { ... }
 
     func minHeight() -> CGFloat { ... }
@@ -50,7 +48,6 @@ class MyDynamicHeader: OLSDynamicHeaderView {
     func overflow(withPoints points: CGFloat)  { ... }
 }
 ```
-* `viewInstance` returns an instance of your header, you can load it from a xib or create it directly.
 * `maxHeight` returns the maximum height allowed for this view.
 * `minHeight` returns the minimum height allowed for this view.
 * `resize(withProgress)` will be called when the user scrolls and your header needs to animate. `progress` goes from 0 to 1, 0 min height reached, 1 max height reached.
