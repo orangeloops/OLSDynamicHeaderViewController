@@ -64,7 +64,7 @@ Omar Hagopian, Antihero [@OrangeLoops](http://orangeloops.com)
 
 Contact:
 
-[📨Mail](ohagopian@orangeloops.com) | [🐥Twitter](https://twitter.com/orangeloopsinc) | [📚StackOverflow](https://stackoverflow.com/users/219777/omer)
+[📨Mail](apps@orangeloops.com) | [🐥Twitter](https://twitter.com/orangeloopsinc)
 
 ## License
 
