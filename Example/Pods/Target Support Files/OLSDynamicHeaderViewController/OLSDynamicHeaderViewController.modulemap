@@ -1,0 +1,6 @@
+framework module OLSDynamicHeaderViewController {
+  umbrella header "OLSDynamicHeaderViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

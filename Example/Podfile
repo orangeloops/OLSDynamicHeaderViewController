@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OLSDynamicHeaderViewController_Example' do
+  pod 'OLSDynamicHeaderViewController', :path => '../'
+
+  target 'OLSDynamicHeaderViewController_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
