@@ -45,7 +45,7 @@ class SampleHeaderView: OLSDynamicHeaderView {
         profileImageView.layer.cornerRadius = 12
     }
 
-    override class func viewInstance() -> SampleHeaderView {
+    class func viewInstance() -> SampleHeaderView {
         let defaultNib = UINib(nibName: "SampleHeaderView", bundle: nil)
         let view = defaultNib.instantiate(withOwner: nil, options: nil)[0] as? SampleHeaderView
         return view!
