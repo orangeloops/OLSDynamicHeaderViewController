@@ -1,6 +1,6 @@
 # OLSDynamicHeaderViewController for iOS (v1.0)
 
-This is an easy to integrate component that allows a UIScrollView or any of their widely used subclasses (such as UITableView and UICollectionView) to have a header view that can be animated along with scrolling.
+This is an easy to integrate view controller that allows a UIScrollView or any of their widely used subclasses (such as UITableView and UICollectionView) to have a header view that can be animated along with scrolling.
 
 Here an example:
 
@@ -58,7 +58,7 @@ Omar Hagopian, Antihero [@OrangeLoops](http://orangeloops.com)
 
 Contact:
 
-[📨Mail](ohagopian@orangeloops.com) | [🐥Twitter](https://twitter.com/clackmac) | [📚StackOverflow](https://stackoverflow.com/users/219777/omer)
+[📨Mail](ohagopian@orangeloops.com) | [🐥Twitter](https://twitter.com/orangeloopsinc) | [📚StackOverflow](https://stackoverflow.com/users/219777/omer)
 
 ## License
 

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  OLSDynamicHeaderViewController
 //
-//  Created by clackmac on 05/29/2017.
-//  Copyright (c) 2017 clackmac. All rights reserved.
+//  Created by Omar Hagopian on 5/26/17.
+//  Copyright © 2017 OrangeLoops. All rights reserved.
 //
 
 import UIKit

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OLSDynamicHeaderViewController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OLSDynamicHeaderViewController.'
+  s.summary          = 'UIScrollView based component with a header view that can be animated along with scrolling'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This is an easy to integrate view controller that allows a UIScrollView or any of their widely used subclasses (such as UITableView and UICollectionView) to have a header view that can be animated along with scrolling.
                        DESC
 
-  s.homepage         = 'https://github.com/clackmac/OLSDynamicHeaderViewController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/orangeloops/OLSDynamicHeaderViewController'
+  # s.screenshots      = 'https://github.com/orangeloops/OLSDynamicHeaderViewController/blob/master/Resources/OLSDynamicHeaderDemo.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'clackmac' => 'clackmac@gmail.com' }
-  s.source           = { :git => 'https://github.com/clackmac/OLSDynamicHeaderViewController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'OrangeLoops' => 'ohagopian@orangeloops.com' }
+  s.source           = { :git => 'https://github.com/orangeloops/OLSDynamicHeaderViewController.git', :tag => s.version.to_s }
+  s.social_media_url = 'http://orangeloops.com'
 
   s.ios.deployment_target = '8.0'
 
