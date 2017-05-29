@@ -1,0 +1,22 @@
+{
+  "name": "OLSDynamicHeaderViewController",
+  "version": "0.1.0",
+  "summary": "A short description of OLSDynamicHeaderViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/clackmac/OLSDynamicHeaderViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "clackmac": "clackmac@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/clackmac/OLSDynamicHeaderViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OLSDynamicHeaderViewController/Classes/**/*"
+}
