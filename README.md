@@ -6,6 +6,15 @@ Here an example:
 
 <img src="./Resources/OLSDynamicHeaderDemo.gif" width="300">
 
+## Installation
+
+OLSDynamicHeaderViewController is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "OLSDynamicHeaderViewController"
+```
+
 ## Setup
 
 #### On your ViewController:
