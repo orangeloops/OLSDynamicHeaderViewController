@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OLSDynamicHeaderViewController'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = 'UIScrollView based component with a header view that can be animated along with scrolling'
 
 # This description is used to generate tags and improve search results.
