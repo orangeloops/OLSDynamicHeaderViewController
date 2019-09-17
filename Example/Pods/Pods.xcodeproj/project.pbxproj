@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		074CF81823303FEC004BF910 /* OLSDynamicHeaderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CF81423303FEC004BF910 /* OLSDynamicHeaderTableViewController.swift */; };
-		074CF81923303FEC004BF910 /* OLSDynamicHeaderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CF81523303FEC004BF910 /* OLSDynamicHeaderCollectionViewController.swift */; };
-		074CF81A23303FEC004BF910 /* OLSDynamicHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CF81623303FEC004BF910 /* OLSDynamicHeaderView.swift */; };
-		074CF81B23303FEC004BF910 /* OLSDynamicHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CF81723303FEC004BF910 /* OLSDynamicHeaderViewController.swift */; };
 		08C231953F9E9F8199ADE074C9EC2B8C /* Pods-OLSDynamicHeaderViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6549258462CE398C8D0509D2B31D5F46 /* Pods-OLSDynamicHeaderViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12FA0C9C7FAF5D4B48AC2EC536CB15A9 /* OLSDynamicHeaderViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 418982C264E78724C57B7EF93532B746 /* OLSDynamicHeaderViewController-dummy.m */; };
+		165B3C1C78F6BFB478B54CE5BC35B3A6 /* OLSDynamicHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C0E3C99668F2AD4F0C898E9BE6AE1 /* OLSDynamicHeaderView.swift */; };
 		372217FF91CD6F14EE0C6A6423C6A44C /* Pods-OLSDynamicHeaderViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6FC9325B9A35BF5C977D961065C824 /* Pods-OLSDynamicHeaderViewController_Example-dummy.m */; };
+		42C93C30A01D6ED91CC82958E7AF8623 /* OLSDynamicHeaderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE62A4C4B30158A0DCE74DBDAAE95F7 /* OLSDynamicHeaderTableViewController.swift */; };
+		44E2A932BAA7DFF797B6894362845329 /* OLSDynamicHeaderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF29490EE4178C53CA8F15363EE7AF2B /* OLSDynamicHeaderCollectionViewController.swift */; };
+		73C767CFBBF9413595015F7D5400F489 /* OLSDynamicHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECACA37898E3BF74064EAF7E104B56C /* OLSDynamicHeaderViewController.swift */; };
 		80190309ADA4F92E45E7071A712DA009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		97CA61A26AF3EF0359BFEFE0FD25ABDE /* Pods-OLSDynamicHeaderViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63F3BFA9E52CA0CD07507A310622F0 /* Pods-OLSDynamicHeaderViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9809630220B066A4F70C9D12D580CF81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9937F79E4D7D7D8A9DB6A2EB81AD42E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A111D41FB84159950FCDB0348DD66793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AEF7B14FD9C61B1C8960D5CC09E0DBAA /* Pods-OLSDynamicHeaderViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83435FA5FA1954C499F38B91C3CDC7AF /* Pods-OLSDynamicHeaderViewController_Tests-dummy.m */; };
-		F41A9915D51A42EAC96C080B9F5DBADF /* OLSDynamicHeaderViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB058D486FF98A040B46C94503B17E4 /* OLSDynamicHeaderViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49412F7D813BEF2A9284E25A729048A /* OLSDynamicHeaderViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1006218EC08AF073F5535FED19EC2AF8 /* OLSDynamicHeaderViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F263289B2C427597C9CD108ACDA770 /* OLSDynamicHeaderViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DB7AB9D766D1B7F0F328F8A37E081 /* OLSDynamicHeaderViewController-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,49 +40,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		074CF81423303FEC004BF910 /* OLSDynamicHeaderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OLSDynamicHeaderTableViewController.swift; path = OLSDynamicHeaderViewController/Classes/OLSDynamicHeaderTableViewController.swift; sourceTree = "<group>"; };
-		074CF81523303FEC004BF910 /* OLSDynamicHeaderCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OLSDynamicHeaderCollectionViewController.swift; path = OLSDynamicHeaderViewController/Classes/OLSDynamicHeaderCollectionViewController.swift; sourceTree = "<group>"; };
-		074CF81623303FEC004BF910 /* OLSDynamicHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OLSDynamicHeaderView.swift; path = OLSDynamicHeaderViewController/Classes/OLSDynamicHeaderView.swift; sourceTree = "<group>"; };
-		074CF81723303FEC004BF910 /* OLSDynamicHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OLSDynamicHeaderViewController.swift; path = OLSDynamicHeaderViewController/Classes/OLSDynamicHeaderViewController.swift; sourceTree = "<group>"; };
-		19B4D02B3D89A9AF1EB7E5DBD97DB9F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1CF373F2F9E7E400E83DB3BC1F4354E9 /* OLSDynamicHeaderViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OLSDynamicHeaderViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1006218EC08AF073F5535FED19EC2AF8 /* OLSDynamicHeaderViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OLSDynamicHeaderViewController-umbrella.h"; sourceTree = "<group>"; };
 		1DC2229EC3212E28CD870A01FBA3F98E /* Pods-OLSDynamicHeaderViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OLSDynamicHeaderViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1ED6B9B025AC2440E078A44B5B88D4A8 /* OLSDynamicHeaderViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OLSDynamicHeaderViewController-Info.plist"; sourceTree = "<group>"; };
 		21E03EE30E409BC1160F84C7AB037185 /* Pods-OLSDynamicHeaderViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OLSDynamicHeaderViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2AB058D486FF98A040B46C94503B17E4 /* OLSDynamicHeaderViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OLSDynamicHeaderViewController-umbrella.h"; sourceTree = "<group>"; };
+		2302358783F2727A81EDC05407F6AA54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2D9C885E3B385CBE8C9D6CA36EBEE31E /* Pods-OLSDynamicHeaderViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OLSDynamicHeaderViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		418982C264E78724C57B7EF93532B746 /* OLSDynamicHeaderViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OLSDynamicHeaderViewController-dummy.m"; sourceTree = "<group>"; };
+		410C0E3C99668F2AD4F0C898E9BE6AE1 /* OLSDynamicHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OLSDynamicHeaderView.swift; path = OLSDynamicHeaderViewController/Classes/OLSDynamicHeaderView.swift; sourceTree = "<group>"; };
 		442A9D36AF2B8F93C89EB8F09157A2B4 /* Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		49BCB79780AF2E2074204DA171CCD4AE /* OLSDynamicHeaderViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OLSDynamicHeaderViewController-prefix.pch"; sourceTree = "<group>"; };
 		58326AA0FDFD52A5487784D63F3E17A9 /* Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6549258462CE398C8D0509D2B31D5F46 /* Pods-OLSDynamicHeaderViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OLSDynamicHeaderViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		699AB8978B15B2748EE5E11D7A874279 /* OLSDynamicHeaderViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OLSDynamicHeaderViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6AC03AAD30B3ED39747CB09BCFC9E95A /* Pods-OLSDynamicHeaderViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OLSDynamicHeaderViewController_Example-Info.plist"; sourceTree = "<group>"; };
-		6E4D8C53CB3C711142A825106210EC54 /* OLSDynamicHeaderViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OLSDynamicHeaderViewController-prefix.pch"; sourceTree = "<group>"; };
-		6F99330CC1ACDD154CB39A9069EA4A00 /* OLSDynamicHeaderViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OLSDynamicHeaderViewController.modulemap; sourceTree = "<group>"; };
+		723A1D249B5AC5441E0D1C85C1BC71C7 /* OLSDynamicHeaderViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OLSDynamicHeaderViewController.modulemap; sourceTree = "<group>"; };
 		83435FA5FA1954C499F38B91C3CDC7AF /* Pods-OLSDynamicHeaderViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OLSDynamicHeaderViewController_Tests-dummy.m"; sourceTree = "<group>"; };
-		8C634B637379A247CE0F2AF2F7FA2A03 /* OLSDynamicHeaderViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OLSDynamicHeaderViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C634B637379A247CE0F2AF2F7FA2A03 /* OLSDynamicHeaderViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OLSDynamicHeaderViewController.framework; path = OLSDynamicHeaderViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6FC9325B9A35BF5C977D961065C824 /* Pods-OLSDynamicHeaderViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OLSDynamicHeaderViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		8F0B88BDB378FD8F355DB8DF31318E6D /* OLSDynamicHeaderViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OLSDynamicHeaderViewController.xcconfig; sourceTree = "<group>"; };
-		928C8FC07A070CCB64F61C27D343A7D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8ECACA37898E3BF74064EAF7E104B56C /* OLSDynamicHeaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OLSDynamicHeaderViewController.swift; path = OLSDynamicHeaderViewController/Classes/OLSDynamicHeaderViewController.swift; sourceTree = "<group>"; };
+		9A657269D68CDDF744788AA6971F8049 /* OLSDynamicHeaderViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OLSDynamicHeaderViewController.xcconfig; sourceTree = "<group>"; };
+		9AE62A4C4B30158A0DCE74DBDAAE95F7 /* OLSDynamicHeaderTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OLSDynamicHeaderTableViewController.swift; path = OLSDynamicHeaderViewController/Classes/OLSDynamicHeaderTableViewController.swift; sourceTree = "<group>"; };
 		9D63F3BFA9E52CA0CD07507A310622F0 /* Pods-OLSDynamicHeaderViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OLSDynamicHeaderViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACC272A09065940FCF97BE8F0886ADB8 /* Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B32AF12B7D5A9CBE0D40A6965F03C876 /* Pods-OLSDynamicHeaderViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OLSDynamicHeaderViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		B3A15E59F12BE8DC9E0919CB9165CEE2 /* Pods-OLSDynamicHeaderViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OLSDynamicHeaderViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B3F13C925C61AA8D81C5E6198B3ADCFC /* Pods_OLSDynamicHeaderViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OLSDynamicHeaderViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F13C925C61AA8D81C5E6198B3ADCFC /* Pods_OLSDynamicHeaderViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OLSDynamicHeaderViewController_Example.framework; path = "Pods-OLSDynamicHeaderViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77DB7AB9D766D1B7F0F328F8A37E081 /* OLSDynamicHeaderViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OLSDynamicHeaderViewController-dummy.m"; sourceTree = "<group>"; };
+		B9910B34107E272E9D58A4C8A5427F29 /* OLSDynamicHeaderViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OLSDynamicHeaderViewController-Info.plist"; sourceTree = "<group>"; };
 		C14946D6B57F1578CAAA884B7BF233B4 /* Pods-OLSDynamicHeaderViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OLSDynamicHeaderViewController_Example.modulemap"; sourceTree = "<group>"; };
-		CC51691313402BECD25E90F876AAA5C6 /* Pods_OLSDynamicHeaderViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OLSDynamicHeaderViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC51691313402BECD25E90F876AAA5C6 /* Pods_OLSDynamicHeaderViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OLSDynamicHeaderViewController_Tests.framework; path = "Pods-OLSDynamicHeaderViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF29490EE4178C53CA8F15363EE7AF2B /* OLSDynamicHeaderCollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OLSDynamicHeaderCollectionViewController.swift; path = OLSDynamicHeaderViewController/Classes/OLSDynamicHeaderCollectionViewController.swift; sourceTree = "<group>"; };
 		CFAB73F8A6D6788C0268126FFBCF2A1C /* Pods-OLSDynamicHeaderViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OLSDynamicHeaderViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CFE18DA35CD4D04094A4AC6EAF86FED7 /* Pods-OLSDynamicHeaderViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OLSDynamicHeaderViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E3E3CFAFAA6DB16C78E7DA79E06D9BEC /* Pods-OLSDynamicHeaderViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OLSDynamicHeaderViewController_Tests-Info.plist"; sourceTree = "<group>"; };
+		E7FB3FA64726889D3DF04C27D96E89A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39495FDC507F88CAE62649EF568DF111 /* Frameworks */ = {
+		159985F2ECB4351C25E87C17D2D5ED4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9809630220B066A4F70C9D12D580CF81 /* Foundation.framework in Frameworks */,
+				A111D41FB84159950FCDB0348DD66793 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +105,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045C558616115C961BD2F96532BD2FBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				723A1D249B5AC5441E0D1C85C1BC71C7 /* OLSDynamicHeaderViewController.modulemap */,
+				9A657269D68CDDF744788AA6971F8049 /* OLSDynamicHeaderViewController.xcconfig */,
+				B77DB7AB9D766D1B7F0F328F8A37E081 /* OLSDynamicHeaderViewController-dummy.m */,
+				B9910B34107E272E9D58A4C8A5427F29 /* OLSDynamicHeaderViewController-Info.plist */,
+				49BCB79780AF2E2074204DA171CCD4AE /* OLSDynamicHeaderViewController-prefix.pch */,
+				1006218EC08AF073F5535FED19EC2AF8 /* OLSDynamicHeaderViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OLSDynamicHeaderViewController";
+			sourceTree = "<group>";
+		};
+		13D31B1A00D067FE03E13B3532413BF7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E7FB3FA64726889D3DF04C27D96E89A3 /* LICENSE */,
+				699AB8978B15B2748EE5E11D7A874279 /* OLSDynamicHeaderViewController.podspec */,
+				2302358783F2727A81EDC05407F6AA54 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3FD8E0237F5E9DF7D5ED3EEEA661DA49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,20 +155,6 @@
 			path = "Target Support Files/Pods-OLSDynamicHeaderViewController_Tests";
 			sourceTree = "<group>";
 		};
-		510423C002442E92E8C72019F14402C2 /* OLSDynamicHeaderViewController */ = {
-			isa = PBXGroup;
-			children = (
-				074CF81523303FEC004BF910 /* OLSDynamicHeaderCollectionViewController.swift */,
-				074CF81423303FEC004BF910 /* OLSDynamicHeaderTableViewController.swift */,
-				074CF81623303FEC004BF910 /* OLSDynamicHeaderView.swift */,
-				074CF81723303FEC004BF910 /* OLSDynamicHeaderViewController.swift */,
-				E3B4F44C0BF8BCAA926F6FBD42F515A9 /* Pod */,
-				8F9ED30068AC081197879E842E2DB1F6 /* Support Files */,
-			);
-			name = OLSDynamicHeaderViewController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		55B7F69BE5140C85033029F2E0DD451C /* Pods-OLSDynamicHeaderViewController_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,26 +172,26 @@
 			path = "Target Support Files/Pods-OLSDynamicHeaderViewController_Example";
 			sourceTree = "<group>";
 		};
-		8F9ED30068AC081197879E842E2DB1F6 /* Support Files */ = {
+		6B79DFD532CEE747BFA8870778C1624B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F99330CC1ACDD154CB39A9069EA4A00 /* OLSDynamicHeaderViewController.modulemap */,
-				8F0B88BDB378FD8F355DB8DF31318E6D /* OLSDynamicHeaderViewController.xcconfig */,
-				418982C264E78724C57B7EF93532B746 /* OLSDynamicHeaderViewController-dummy.m */,
-				1ED6B9B025AC2440E078A44B5B88D4A8 /* OLSDynamicHeaderViewController-Info.plist */,
-				6E4D8C53CB3C711142A825106210EC54 /* OLSDynamicHeaderViewController-prefix.pch */,
-				2AB058D486FF98A040B46C94503B17E4 /* OLSDynamicHeaderViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OLSDynamicHeaderViewController";
-			sourceTree = "<group>";
-		};
-		A6E08937323C334D973BEAE48A467208 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				510423C002442E92E8C72019F14402C2 /* OLSDynamicHeaderViewController */,
+				70CBA9A0189E49B9A3707555ACFF93A2 /* OLSDynamicHeaderViewController */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		70CBA9A0189E49B9A3707555ACFF93A2 /* OLSDynamicHeaderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF29490EE4178C53CA8F15363EE7AF2B /* OLSDynamicHeaderCollectionViewController.swift */,
+				9AE62A4C4B30158A0DCE74DBDAAE95F7 /* OLSDynamicHeaderTableViewController.swift */,
+				410C0E3C99668F2AD4F0C898E9BE6AE1 /* OLSDynamicHeaderView.swift */,
+				8ECACA37898E3BF74064EAF7E104B56C /* OLSDynamicHeaderViewController.swift */,
+				13D31B1A00D067FE03E13B3532413BF7 /* Pod */,
+				045C558616115C961BD2F96532BD2FBB /* Support Files */,
+			);
+			name = OLSDynamicHeaderViewController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B2D57049F5BEBCFFCEB43C8E0427E262 /* Targets Support Files */ = {
@@ -205,7 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A6E08937323C334D973BEAE48A467208 /* Development Pods */,
+				6B79DFD532CEE747BFA8870778C1624B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3FD8E0237F5E9DF7D5ED3EEEA661DA49 /* Products */,
 				B2D57049F5BEBCFFCEB43C8E0427E262 /* Targets Support Files */,
@@ -220,27 +230,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3B4F44C0BF8BCAA926F6FBD42F515A9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				928C8FC07A070CCB64F61C27D343A7D7 /* LICENSE */,
-				1CF373F2F9E7E400E83DB3BC1F4354E9 /* OLSDynamicHeaderViewController.podspec */,
-				19B4D02B3D89A9AF1EB7E5DBD97DB9F2 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		021E9BA5E055A025F41B8536A61781DB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F41A9915D51A42EAC96C080B9F5DBADF /* OLSDynamicHeaderViewController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C174A65FD14E476123CC22B8EF59BEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,6 +246,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C231953F9E9F8199ADE074C9EC2B8C /* Pods-OLSDynamicHeaderViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DD1E2A1CC8D63FBB20F1B675A7A6BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49412F7D813BEF2A9284E25A729048A /* OLSDynamicHeaderViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,12 +281,12 @@
 		};
 		92F0D3B343C7BCE348795C3725A3B917 /* OLSDynamicHeaderViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DF6A40ED2C804E2A55CB4EFDD2F2461 /* Build configuration list for PBXNativeTarget "OLSDynamicHeaderViewController" */;
+			buildConfigurationList = DD2218AF19B2E828E0BFD8F30BB827C3 /* Build configuration list for PBXNativeTarget "OLSDynamicHeaderViewController" */;
 			buildPhases = (
-				021E9BA5E055A025F41B8536A61781DB /* Headers */,
-				3DBDAEAC218B7DFC0A6766D31ED53422 /* Sources */,
-				39495FDC507F88CAE62649EF568DF111 /* Frameworks */,
-				E3CE62BCA09EBACFC9AA2FBBA163CEB5 /* Resources */,
+				E4DD1E2A1CC8D63FBB20F1B675A7A6BE /* Headers */,
+				E6FEF0ED3A8CC23538E4B40972BE320A /* Sources */,
+				159985F2ECB4351C25E87C17D2D5ED4E /* Frameworks */,
+				7484DD35E3A7456E07DA4B302355DE0C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -324,11 +324,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					92F0D3B343C7BCE348795C3725A3B917 = {
-						LastSwiftMigration = 1030;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,7 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3CE62BCA09EBACFC9AA2FBBA163CEB5 /* Resources */ = {
+		7484DD35E3A7456E07DA4B302355DE0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,18 +369,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3DBDAEAC218B7DFC0A6766D31ED53422 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				074CF81A23303FEC004BF910 /* OLSDynamicHeaderView.swift in Sources */,
-				12FA0C9C7FAF5D4B48AC2EC536CB15A9 /* OLSDynamicHeaderViewController-dummy.m in Sources */,
-				074CF81823303FEC004BF910 /* OLSDynamicHeaderTableViewController.swift in Sources */,
-				074CF81B23303FEC004BF910 /* OLSDynamicHeaderViewController.swift in Sources */,
-				074CF81923303FEC004BF910 /* OLSDynamicHeaderCollectionViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6E55610497E125544FAC3664C371A276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +382,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF7B14FD9C61B1C8960D5CC09E0DBAA /* Pods-OLSDynamicHeaderViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FEF0ED3A8CC23538E4B40972BE320A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E2A932BAA7DFF797B6894362845329 /* OLSDynamicHeaderCollectionViewController.swift in Sources */,
+				42C93C30A01D6ED91CC82958E7AF8623 /* OLSDynamicHeaderTableViewController.swift in Sources */,
+				165B3C1C78F6BFB478B54CE5BC35B3A6 /* OLSDynamicHeaderView.swift in Sources */,
+				E3F263289B2C427597C9CD108ACDA770 /* OLSDynamicHeaderViewController-dummy.m in Sources */,
+				73C767CFBBF9413595015F7D5400F489 /* OLSDynamicHeaderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,45 +415,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6079481AAB1D22C997BB3E2E7376D6F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACC272A09065940FCF97BE8F0886ADB8 /* Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		611C18B8F6328AD08FD4D1B59A90F634 /* Debug */ = {
+		022B0ACD28926FA238AD9726A0DFA81F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 442A9D36AF2B8F93C89EB8F09157A2B4 /* Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -470,7 +433,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests.modulemap";
@@ -487,11 +450,13 @@
 			};
 			name = Debug;
 		};
-		724282DD9AF989F2A75AB02D46D78D6C /* Debug */ = {
+		206EF58FE7A55B5E90F7083EED5EDBD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58326AA0FDFD52A5487784D63F3E17A9 /* Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -503,7 +468,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example.modulemap";
@@ -520,7 +485,41 @@
 			};
 			name = Debug;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		23F6B12ECEA0C6D4B2464F3C2F7467FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A657269D68CDDF744788AA6971F8049 /* OLSDynamicHeaderViewController.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController.modulemap";
+				PRODUCT_MODULE_NAME = OLSDynamicHeaderViewController;
+				PRODUCT_NAME = OLSDynamicHeaderViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -572,15 +571,51 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		4F8EE7DE703E75F34C190FAEC4B422E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC272A09065940FCF97BE8F0886ADB8 /* Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -636,7 +671,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -645,75 +679,13 @@
 			};
 			name = Debug;
 		};
-		CAB5046FABCE9CE9E8607D1EF9212AD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F0B88BDB378FD8F355DB8DF31318E6D /* OLSDynamicHeaderViewController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController.modulemap";
-				PRODUCT_MODULE_NAME = OLSDynamicHeaderViewController;
-				PRODUCT_NAME = OLSDynamicHeaderViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E82BA96C97DB2B88367FB9A7D6AF95EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F0B88BDB378FD8F355DB8DF31318E6D /* OLSDynamicHeaderViewController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController.modulemap";
-				PRODUCT_MODULE_NAME = OLSDynamicHeaderViewController;
-				PRODUCT_NAME = OLSDynamicHeaderViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EB135AC3B25B53418C70D5885F6D416F /* Release */ = {
+		EA23DBBDE3CC37AC511E04D647445353 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3A15E59F12BE8DC9E0919CB9165CEE2 /* Pods-OLSDynamicHeaderViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -725,7 +697,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example.modulemap";
@@ -743,14 +715,47 @@
 			};
 			name = Release;
 		};
+		EBE9E835CDE7A1FA4720CC18923F44BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A657269D68CDDF744788AA6971F8049 /* OLSDynamicHeaderViewController.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController.modulemap";
+				PRODUCT_MODULE_NAME = OLSDynamicHeaderViewController;
+				PRODUCT_NAME = OLSDynamicHeaderViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		19CA613491B70259EAD93F8BEE3D0CCF /* Build configuration list for PBXNativeTarget "Pods-OLSDynamicHeaderViewController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				611C18B8F6328AD08FD4D1B59A90F634 /* Debug */,
-				6079481AAB1D22C997BB3E2E7376D6F9 /* Release */,
+				022B0ACD28926FA238AD9726A0DFA81F /* Debug */,
+				4F8EE7DE703E75F34C190FAEC4B422E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -758,8 +763,8 @@
 		2FD0AA9C5D9EA1E636DD0940E5F077DA /* Build configuration list for PBXNativeTarget "Pods-OLSDynamicHeaderViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				724282DD9AF989F2A75AB02D46D78D6C /* Debug */,
-				EB135AC3B25B53418C70D5885F6D416F /* Release */,
+				206EF58FE7A55B5E90F7083EED5EDBD4 /* Debug */,
+				EA23DBBDE3CC37AC511E04D647445353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -767,17 +772,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DF6A40ED2C804E2A55CB4EFDD2F2461 /* Build configuration list for PBXNativeTarget "OLSDynamicHeaderViewController" */ = {
+		DD2218AF19B2E828E0BFD8F30BB827C3 /* Build configuration list for PBXNativeTarget "OLSDynamicHeaderViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAB5046FABCE9CE9E8607D1EF9212AD5 /* Debug */,
-				E82BA96C97DB2B88367FB9A7D6AF95EE /* Release */,
+				EBE9E835CDE7A1FA4720CC18923F44BF /* Debug */,
+				23F6B12ECEA0C6D4B2464F3C2F7467FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

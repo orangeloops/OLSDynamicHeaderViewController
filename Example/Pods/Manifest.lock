@@ -1,5 +1,5 @@
 PODS:
-  - OLSDynamicHeaderViewController (0.1.0)
+  - OLSDynamicHeaderViewController (1.0.0)
 
 DEPENDENCIES:
   - OLSDynamicHeaderViewController (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OLSDynamicHeaderViewController: 6689cf4da703b3ac862b2c0f6ff74e14d3b2bbba
+  OLSDynamicHeaderViewController: 8f48b0d8690e4feecfeb0d079c4ad72f91e2df32
 
 PODFILE CHECKSUM: 97930d27a69dfe8c06b95d9d216fc39c37c9bc1c
 

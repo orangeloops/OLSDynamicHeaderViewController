@@ -1,22 +1,27 @@
 {
   "name": "OLSDynamicHeaderViewController",
-  "version": "0.1.0",
-  "summary": "A short description of OLSDynamicHeaderViewController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/clackmac/OLSDynamicHeaderViewController",
+  "version": "1.0.0",
+  "summary": "UIScrollView based component with a header view that can be animated along with scrolling",
+  "description": "'This is an easy to integrate view controller that allows a UIScrollView or any of their widely used subclasses (such as UITableView and UICollectionView) to have a header view that can be animated along with scrolling.",
+  "homepage": "https://github.com/orangeloops/OLSDynamicHeaderViewController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "clackmac": "clackmac@gmail.com"
+    "OrangeLoops": "ohagopian@orangeloops.com"
   },
   "source": {
-    "git": "https://github.com/clackmac/OLSDynamicHeaderViewController.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/orangeloops/OLSDynamicHeaderViewController.git",
+    "tag": "1.0.0"
   },
+  "social_media_url": "https://twitter.com/orangeloopsinc",
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "OLSDynamicHeaderViewController/Classes/**/*"
+  "source_files": "OLSDynamicHeaderViewController/Classes/**/*",
+  "swift_versions": [
+    "5.0"
+  ],
+  "swift_version": "5.0"
 }
