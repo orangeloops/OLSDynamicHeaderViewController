@@ -27,6 +27,11 @@ class TableViewController: OLSDynamicHeaderTableViewController {
 
         tableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: cellIdenetifier)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
 
     override func headerViewInstance() -> OLSDynamicHeaderView {
         let view = SampleHeaderView.viewInstance()
