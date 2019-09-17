@@ -6,6 +6,6 @@ target 'OLSDynamicHeaderViewController_Example' do
   target 'OLSDynamicHeaderViewController_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    
   end
 end

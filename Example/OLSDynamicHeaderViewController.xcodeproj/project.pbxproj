@@ -7,25 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E15FB8E1EDC7B4A00C3CDD7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15FB881EDC7B4A00C3CDD7 /* CollectionViewCell.swift */; };
-		0E15FB8F1EDC7B4A00C3CDD7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15FB881EDC7B4A00C3CDD7 /* CollectionViewCell.swift */; };
-		0E15FB901EDC7B4A00C3CDD7 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E15FB891EDC7B4A00C3CDD7 /* CollectionViewCell.xib */; };
-		0E15FB911EDC7B4A00C3CDD7 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E15FB891EDC7B4A00C3CDD7 /* CollectionViewCell.xib */; };
-		0E15FB921EDC7B4A00C3CDD7 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15FB8A1EDC7B4A00C3CDD7 /* CollectionViewController.swift */; };
-		0E15FB931EDC7B4A00C3CDD7 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15FB8A1EDC7B4A00C3CDD7 /* CollectionViewController.swift */; };
-		0E15FB941EDC7B4A00C3CDD7 /* SampleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15FB8B1EDC7B4A00C3CDD7 /* SampleHeaderView.swift */; };
-		0E15FB951EDC7B4A00C3CDD7 /* SampleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15FB8B1EDC7B4A00C3CDD7 /* SampleHeaderView.swift */; };
-		0E15FB961EDC7B4A00C3CDD7 /* SampleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E15FB8C1EDC7B4A00C3CDD7 /* SampleHeaderView.xib */; };
-		0E15FB971EDC7B4A00C3CDD7 /* SampleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E15FB8C1EDC7B4A00C3CDD7 /* SampleHeaderView.xib */; };
-		0E15FB981EDC7B4A00C3CDD7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15FB8D1EDC7B4A00C3CDD7 /* TableViewController.swift */; };
-		0E15FB991EDC7B4A00C3CDD7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15FB8D1EDC7B4A00C3CDD7 /* TableViewController.swift */; };
-		3BF08E1BF439DBDBC9A069FE /* Pods_OLSDynamicHeaderViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29F57BF2A4D935FBFCD42DE /* Pods_OLSDynamicHeaderViewController_Example.framework */; };
+		074CF82223304107004BF910 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CF81C23304107004BF910 /* CollectionViewCell.swift */; };
+		074CF82323304107004BF910 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074CF81D23304107004BF910 /* CollectionViewCell.xib */; };
+		074CF82423304107004BF910 /* SampleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CF81E23304107004BF910 /* SampleHeaderView.swift */; };
+		074CF82523304107004BF910 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CF81F23304107004BF910 /* CollectionViewController.swift */; };
+		074CF82623304107004BF910 /* SampleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074CF82023304107004BF910 /* SampleHeaderView.xib */; };
+		074CF82723304107004BF910 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CF82123304107004BF910 /* TableViewController.swift */; };
+		3EE7DB0F120BF754E237CFBA /* Pods_OLSDynamicHeaderViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA3937D44E9507DBB670CA0 /* Pods_OLSDynamicHeaderViewController_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		75FEBD28ECD2B2600B725D7C /* Pods_OLSDynamicHeaderViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D38F0E35FE1D9F3D6AE9E4F /* Pods_OLSDynamicHeaderViewController_Tests.framework */; };
+		E2D947B444D6BA2D2677F9EF /* Pods_OLSDynamicHeaderViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B374E59E01B4887E9B2AE4D9 /* Pods_OLSDynamicHeaderViewController_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E15FB881EDC7B4A00C3CDD7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		0E15FB891EDC7B4A00C3CDD7 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
-		0E15FB8A1EDC7B4A00C3CDD7 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		0E15FB8B1EDC7B4A00C3CDD7 /* SampleHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleHeaderView.swift; sourceTree = "<group>"; };
-		0E15FB8C1EDC7B4A00C3CDD7 /* SampleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleHeaderView.xib; sourceTree = "<group>"; };
-		0E15FB8D1EDC7B4A00C3CDD7 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		5D38F0E35FE1D9F3D6AE9E4F /* Pods_OLSDynamicHeaderViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OLSDynamicHeaderViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		074CF81C23304107004BF910 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		074CF81D23304107004BF910 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		074CF81E23304107004BF910 /* SampleHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleHeaderView.swift; sourceTree = "<group>"; };
+		074CF81F23304107004BF910 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		074CF82023304107004BF910 /* SampleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleHeaderView.xib; sourceTree = "<group>"; };
+		074CF82123304107004BF910 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		203D2519ED80E549219E49DA /* Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA3937D44E9507DBB670CA0 /* Pods_OLSDynamicHeaderViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OLSDynamicHeaderViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7F30E8314E0B7E2FB676D8 /* Pods-OLSDynamicHeaderViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLSDynamicHeaderViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OLSDynamicHeaderViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLSDynamicHeaderViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,14 +51,12 @@
 		607FACE51AFB9204008FA782 /* OLSDynamicHeaderViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLSDynamicHeaderViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		764173F139A1ED232D0D06F7 /* Pods-OLSDynamicHeaderViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLSDynamicHeaderViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8860AA68E248B0D85A9E549E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A3AC58D6A1756FC97F24EF29 /* Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A612AF474C74607E644D40C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BD02C7CF7E24AECAF6803A48 /* OLSDynamicHeaderViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OLSDynamicHeaderViewController.podspec; path = ../OLSDynamicHeaderViewController.podspec; sourceTree = "<group>"; };
-		E29F57BF2A4D935FBFCD42DE /* Pods_OLSDynamicHeaderViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OLSDynamicHeaderViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6E185B8BAC19F098127A969 /* Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E96F68350CD8273C7B1C20D0 /* Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		649CE0871C4775987005681B /* Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		74587C5616865DD58DBEB860 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		791A9A5A30A1EBD7CD664C0F /* OLSDynamicHeaderViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OLSDynamicHeaderViewController.podspec; path = ../OLSDynamicHeaderViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E45F428177C6176605C7988 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		92B15304E46F7239E5DC396B /* Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B374E59E01B4887E9B2AE4D9 /* Pods_OLSDynamicHeaderViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OLSDynamicHeaderViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF08E1BF439DBDBC9A069FE /* Pods_OLSDynamicHeaderViewController_Example.framework in Frameworks */,
+				3EE7DB0F120BF754E237CFBA /* Pods_OLSDynamicHeaderViewController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +72,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75FEBD28ECD2B2600B725D7C /* Pods_OLSDynamicHeaderViewController_Tests.framework in Frameworks */,
+				E2D947B444D6BA2D2677F9EF /* Pods_OLSDynamicHeaderViewController_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AEE7C446300503A6BDED463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CA3937D44E9507DBB670CA0 /* Pods_OLSDynamicHeaderViewController_Example.framework */,
+				B374E59E01B4887E9B2AE4D9 /* Pods_OLSDynamicHeaderViewController_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +95,8 @@
 				607FACD21AFB9204008FA782 /* Example for OLSDynamicHeaderViewController */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				CC4C007A76CF6016978906AA /* Pods */,
-				9BA8C76708955CBAC3DBCE7B /* Frameworks */,
+				D3DF50E3E247289EDCE38249 /* Pods */,
+				5AEE7C446300503A6BDED463 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,13 +112,13 @@
 		607FACD21AFB9204008FA782 /* Example for OLSDynamicHeaderViewController */ = {
 			isa = PBXGroup;
 			children = (
+				074CF81C23304107004BF910 /* CollectionViewCell.swift */,
+				074CF81D23304107004BF910 /* CollectionViewCell.xib */,
+				074CF81F23304107004BF910 /* CollectionViewController.swift */,
+				074CF81E23304107004BF910 /* SampleHeaderView.swift */,
+				074CF82023304107004BF910 /* SampleHeaderView.xib */,
+				074CF82123304107004BF910 /* TableViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				0E15FB881EDC7B4A00C3CDD7 /* CollectionViewCell.swift */,
-				0E15FB891EDC7B4A00C3CDD7 /* CollectionViewCell.xib */,
-				0E15FB8A1EDC7B4A00C3CDD7 /* CollectionViewController.swift */,
-				0E15FB8B1EDC7B4A00C3CDD7 /* SampleHeaderView.swift */,
-				0E15FB8C1EDC7B4A00C3CDD7 /* SampleHeaderView.xib */,
-				0E15FB8D1EDC7B4A00C3CDD7 /* TableViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -153,31 +156,22 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				BD02C7CF7E24AECAF6803A48 /* OLSDynamicHeaderViewController.podspec */,
-				8860AA68E248B0D85A9E549E /* README.md */,
-				A612AF474C74607E644D40C2 /* LICENSE */,
+				791A9A5A30A1EBD7CD664C0F /* OLSDynamicHeaderViewController.podspec */,
+				74587C5616865DD58DBEB860 /* README.md */,
+				8E45F428177C6176605C7988 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		9BA8C76708955CBAC3DBCE7B /* Frameworks */ = {
+		D3DF50E3E247289EDCE38249 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E29F57BF2A4D935FBFCD42DE /* Pods_OLSDynamicHeaderViewController_Example.framework */,
-				5D38F0E35FE1D9F3D6AE9E4F /* Pods_OLSDynamicHeaderViewController_Tests.framework */,
+				203D2519ED80E549219E49DA /* Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig */,
+				4C7F30E8314E0B7E2FB676D8 /* Pods-OLSDynamicHeaderViewController_Example.release.xcconfig */,
+				649CE0871C4775987005681B /* Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig */,
+				92B15304E46F7239E5DC396B /* Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CC4C007A76CF6016978906AA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E6E185B8BAC19F098127A969 /* Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig */,
-				764173F139A1ED232D0D06F7 /* Pods-OLSDynamicHeaderViewController_Example.release.xcconfig */,
-				A3AC58D6A1756FC97F24EF29 /* Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig */,
-				E96F68350CD8273C7B1C20D0 /* Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig */,
-			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,12 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OLSDynamicHeaderViewController_Example" */;
 			buildPhases = (
-				DE6B01E9D9C0478AB7366596 /* [CP] Check Pods Manifest.lock */,
+				2A5C1EB571C1A8CCFC80BCCE /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				CBA6580BE494973662A4217C /* [CP] Embed Pods Frameworks */,
-				18FCCF7D12296CC988CCCDFD /* [CP] Copy Pods Resources */,
+				18DA8CE732D6F9D0CEA06E46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,12 +200,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OLSDynamicHeaderViewController_Tests" */;
 			buildPhases = (
-				79F4791C2C7447E12171B8EC /* [CP] Check Pods Manifest.lock */,
+				2A8E5374FC65A214B6AF94BA /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				91E4055D747A3CB5CF9916B1 /* [CP] Embed Pods Frameworks */,
-				04A73A5BE0270E397228866D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,24 +221,24 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 1030;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 1030;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "OLSDynamicHeaderViewController" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -271,8 +262,8 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				0E15FB901EDC7B4A00C3CDD7 /* CollectionViewCell.xib in Resources */,
-				0E15FB961EDC7B4A00C3CDD7 /* SampleHeaderView.xib in Resources */,
+				074CF82323304107004BF910 /* CollectionViewCell.xib in Resources */,
+				074CF82623304107004BF910 /* SampleHeaderView.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,102 +272,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E15FB911EDC7B4A00C3CDD7 /* CollectionViewCell.xib in Resources */,
-				0E15FB971EDC7B4A00C3CDD7 /* SampleHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04A73A5BE0270E397228866D /* [CP] Copy Pods Resources */ = {
+		18DA8CE732D6F9D0CEA06E46 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		18FCCF7D12296CC988CCCDFD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		79F4791C2C7447E12171B8EC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		91E4055D747A3CB5CF9916B1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OLSDynamicHeaderViewController/OLSDynamicHeaderViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OLSDynamicHeaderViewController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OLSDynamicHeaderViewController_Tests/Pods-OLSDynamicHeaderViewController_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CBA6580BE494973662A4217C /* [CP] Embed Pods Frameworks */ = {
+		2A5C1EB571C1A8CCFC80BCCE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OLSDynamicHeaderViewController_Example/Pods-OLSDynamicHeaderViewController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE6B01E9D9C0478AB7366596 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OLSDynamicHeaderViewController_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A8E5374FC65A214B6AF94BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OLSDynamicHeaderViewController_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -386,11 +347,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E15FB941EDC7B4A00C3CDD7 /* SampleHeaderView.swift in Sources */,
-				0E15FB981EDC7B4A00C3CDD7 /* TableViewController.swift in Sources */,
-				0E15FB921EDC7B4A00C3CDD7 /* CollectionViewController.swift in Sources */,
+				074CF82523304107004BF910 /* CollectionViewController.swift in Sources */,
+				074CF82423304107004BF910 /* SampleHeaderView.swift in Sources */,
+				074CF82223304107004BF910 /* CollectionViewCell.swift in Sources */,
+				074CF82723304107004BF910 /* TableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				0E15FB8E1EDC7B4A00C3CDD7 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,11 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E15FB931EDC7B4A00C3CDD7 /* CollectionViewController.swift in Sources */,
-				0E15FB8F1EDC7B4A00C3CDD7 /* CollectionViewCell.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
-				0E15FB991EDC7B4A00C3CDD7 /* TableViewController.swift in Sources */,
-				0E15FB951EDC7B4A00C3CDD7 /* SampleHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,14 +401,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -475,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -491,14 +456,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -515,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -525,7 +498,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6E185B8BAC19F098127A969 /* Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig */;
+			baseConfigurationReference = 203D2519ED80E549219E49DA /* Pods-OLSDynamicHeaderViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OLSDynamicHeaderViewController/Info.plist;
@@ -533,13 +506,13 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 764173F139A1ED232D0D06F7 /* Pods-OLSDynamicHeaderViewController_Example.release.xcconfig */;
+			baseConfigurationReference = 4C7F30E8314E0B7E2FB676D8 /* Pods-OLSDynamicHeaderViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OLSDynamicHeaderViewController/Info.plist;
@@ -547,16 +520,16 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3AC58D6A1756FC97F24EF29 /* Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig */;
+			baseConfigurationReference = 649CE0871C4775987005681B /* Pods-OLSDynamicHeaderViewController_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -567,23 +540,25 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OLSDynamicHeaderViewController_Example.app/OLSDynamicHeaderViewController_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E96F68350CD8273C7B1C20D0 /* Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig */;
+			baseConfigurationReference = 92B15304E46F7239E5DC396B /* Pods-OLSDynamicHeaderViewController_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OLSDynamicHeaderViewController_Example.app/OLSDynamicHeaderViewController_Example";
 			};
 			name = Release;
 		};

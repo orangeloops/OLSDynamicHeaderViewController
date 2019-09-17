@@ -20,19 +20,16 @@ open class OLSDynamicHeaderViewController: UIViewController, UIScrollViewDelegat
 
     fileprivate var backgroundView: UIView!
     fileprivate var backgroundViewTopLayoutConstraint: NSLayoutConstraint!
-
+    
     override open func viewDidLoad() {
         super.viewDidLoad()
-
-        automaticallyAdjustsScrollViewInsets = false
         view.clipsToBounds = true
-
         setUpView()
     }
 
     override open func viewDidLayoutSubviews() {
         var scrollViewInset = scrollView.contentInset
-        scrollViewInset.bottom = bottomLayoutGuide.length
+        scrollViewInset.bottom = self.view.safeAreaInsets.bottom
         scrollView.contentInset = scrollViewInset
         scrollView.scrollIndicatorInsets = scrollViewInset
     }
@@ -56,9 +53,9 @@ open class OLSDynamicHeaderViewController: UIViewController, UIScrollViewDelegat
             return
         }
 
-        let scrollProgress = fabs(offset)
-        let headerMax = headerView.maxHeight()
-        let headerMin = headerView.minHeight()
+        let scrollProgress = abs(offset)
+        let headerMax = headerViewMaxHeight()
+        let headerMin = headerViewMinHeight()
 
         let totalDistance = headerMax - headerMin
         let backgroundConstant: CGFloat
@@ -70,7 +67,6 @@ open class OLSDynamicHeaderViewController: UIViewController, UIScrollViewDelegat
             headerView.resize(withProgress: fixedProgress)
 
             backgroundConstant = headerMin + scrollProgress
-
 
         } else {
             let offset = scrollProgress - totalDistance
@@ -85,14 +81,13 @@ open class OLSDynamicHeaderViewController: UIViewController, UIScrollViewDelegat
     // MARK - Private
     fileprivate func setUpView() {
         view.backgroundColor = UIColor.white
-        view.translatesAutoresizingMaskIntoConstraints = false
 
         //Header view
         headerView = headerViewInstance()
-        let headerMax = headerView.maxHeight()
-        let headerMin = headerView.minHeight()
+        let headerMax = headerViewMaxHeight()
+        let headerMin = headerViewMinHeight()
         let topOffset = headerMax - headerMin
-
+        
         var headerViewFrame = view.bounds
         headerViewFrame.size.height = headerMax
 
@@ -100,12 +95,11 @@ open class OLSDynamicHeaderViewController: UIViewController, UIScrollViewDelegat
         headerView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(headerView)
 
-        var headerConstraints = [NSLayoutConstraint]()
-        headerConstraints.append(contentsOf: NSLayoutConstraint.constraints(withVisualFormat: "H:|[headerView]|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: ["headerView": headerView] as [String: UIView]))
-        headerConstraints.append(NSLayoutConstraint(item: headerView, attribute: .top, relatedBy: .equal, toItem: view, attribute: .top, multiplier: 1, constant: 0))
-        headerConstraints.append(NSLayoutConstraint(item: headerView, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: headerMax))
-        NSLayoutConstraint.activate(headerConstraints)
-
+        headerView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        headerView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerMax).isActive = true
+        headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        
         var backgroundViewFrame = view.bounds
         backgroundViewFrame.origin.y = headerMax
         backgroundViewFrame.size.height -= headerMax
@@ -116,21 +110,21 @@ open class OLSDynamicHeaderViewController: UIViewController, UIScrollViewDelegat
         backgroundView.translatesAutoresizingMaskIntoConstraints = false
         backgroundView.backgroundColor = UIColor.white
         view.addSubview(backgroundView)
-
-        backgroundViewTopLayoutConstraint = NSLayoutConstraint(item: backgroundView, attribute: .top, relatedBy: .equal, toItem: view, attribute: .top, multiplier: 1, constant: 300)
-
-        var backgroundViewConstraints = [NSLayoutConstraint]()
-        backgroundViewConstraints.append(contentsOf: NSLayoutConstraint.constraints(withVisualFormat: "H:|[backgroundView]|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: ["backgroundView": backgroundView] as [String: UIView]))
-        backgroundViewConstraints.append(NSLayoutConstraint(item: backgroundView, attribute: .bottom, relatedBy: .equal, toItem: view, attribute: .bottom, multiplier: 1, constant: 0))
-        backgroundViewConstraints.append(backgroundViewTopLayoutConstraint)
-        NSLayoutConstraint.activate(backgroundViewConstraints)
-
+        
+        backgroundViewTopLayoutConstraint = backgroundView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 300)
+        backgroundViewTopLayoutConstraint.isActive = true
+        backgroundView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        backgroundView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        backgroundView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        
         //Scroll View
         var scrollViewFrame = view.bounds
         scrollViewFrame.size.height -= headerMin
         scrollViewFrame.origin.y = headerMin
 
         scrollView = scrollViewInstance()
+        scrollView.alpha = 0.4
+        scrollView.contentInsetAdjustmentBehavior = .never
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.backgroundColor = UIColor.clear
         scrollView.delegate = self
@@ -139,12 +133,18 @@ open class OLSDynamicHeaderViewController: UIViewController, UIScrollViewDelegat
         scrollView.contentInset = scrollInsets
         scrollView.scrollIndicatorInsets = scrollInsets
         view.addSubview(scrollView)
-
-        let viewBindings: [String: UIView] = ["scrollView": scrollView]
-        var scrollViewConstraints = [NSLayoutConstraint]()
-        scrollViewConstraints.append(contentsOf: NSLayoutConstraint.constraints(withVisualFormat: "H:|[scrollView]|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewBindings))
-        scrollViewConstraints.append(NSLayoutConstraint(item: scrollView, attribute: .top, relatedBy: .equal, toItem: view, attribute: .top, multiplier: 1, constant: headerMin))
-        scrollViewConstraints.append(NSLayoutConstraint(item: scrollView, attribute: .bottom, relatedBy: .equal, toItem: view, attribute: .bottom, multiplier: 1, constant: 0))
-        NSLayoutConstraint.activate(scrollViewConstraints)
+        
+        scrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: headerMin).isActive = true
+        scrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+    }
+    
+    fileprivate func headerViewMaxHeight() -> CGFloat {
+        return headerView.maxHeight()
+    }
+    
+    fileprivate func headerViewMinHeight() -> CGFloat {
+        return headerView.minHeight()
     }
 }
